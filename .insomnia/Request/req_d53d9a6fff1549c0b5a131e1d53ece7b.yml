@@ -1,0 +1,31 @@
+_id: req_d53d9a6fff1549c0b5a131e1d53ece7b
+type: Request
+parentId: wrk_c5547ce2b3c14f278e7efb130c838b08
+modified: 1693883565129
+created: 1693792456418
+url: "{{ _.local }}/api/login"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username" : "20220018",
+    	"password" : "Satuuntuksemua2025"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1693792456418
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_5f557dbae8ca410580b8358ab5069a0c
+type: Request
+parentId: fld_acc2777dd9cb4258ae44125101ba1ea7
+modified: 1694494719581
+created: 1694494714869
+url: "{{ _.local }}/api/surat-unja/dashboard/menunggu-kirim"
+name: Get jumlah menunggu kirim
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"tgl_awal" : "2022-01-06 10:11:41",
+    	"tgl_akhir" : "2022-03-06 10:11:41"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5IiwianRpIjoiMjUyODc1NzE3OTE2ZmIyNTRlNWJhMTBhMWNjOGIxMDYxODAzMTViOWNmNTU1MzAzYjNhOGFlNDFlYmE5OWJmZTAzNzdjMGNhOWQ3MmRmNWYiLCJpYXQiOjE2OTM4OTY3MzAuMDU1Mzk2LCJuYmYiOjE2OTM4OTY3MzAuMDU1NDA3LCJleHAiOjE3MjU1MTkxMjkuNTU1NzMxLCJzdWIiOiI0MyIsInNjb3BlcyI6W119.awtMZ45_fQH62GKnI4WmQ4TIN-wCHwLP5im0cK2te5zcAc1jEzku3Oas9xTKceyhH66xhnnjc-l55d21beVDVY3DnL0BdvGwIs0uf1yCouBMOsV50gf250hH1Ag16TjQBSeXY7kS1-86xa5E8uYOQoQa0QArMb-I0p6l_T45Uva0I8tgkG5IcyIaKnDe5yVlk14ybArplbA7iK3KXggLp_g_fcMuoMPb28xr7xos5wd5xP0KtJesPo35V_601YBai40w4-XHPW6ThhKwHr-j7bxcFTmw9_Cuir1W_DJkaMSoiLbrQZP3-K0ccVJVwrzJDuHuVp8Brlrr9V0c8uiGhDPqW2MVnlKGEV4Sbs8V0X43w7UOwJ6E_FLGEHUfvT7RlYWatTBlA_yX6AVWs-CD_8DgYPOH97o1V5LeMfDtbt6Kl_dmBl7ELPRq6HQ2As7DhYIj-2L13e7FTLWZGjmQKZL0QgH5hdoSrsjkd1B5AhV0PEALJjD1cZzz-cAtRoVeSQN7_07xb_9VkuGyd5Ldwgf3tXGt-MHkRKEFmj-zs2n0Fkioynb6b853zHQ1i_zMQe5JtF9sEPJsEa3b5p4Nw3QvwlbGY7Iudr6vrdK8tq7zPymVSNz3dglz-epZrOxeehXIWCiAuCgm9OCgpKikCr9vk0k10DbjJQE7VlBGziw
+metaSortKey: -1694493686991.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

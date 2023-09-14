@@ -1,0 +1,22 @@
+_id: env_4462f8f05af472639904e34a8c4e4595064d90db
+type: Environment
+parentId: wrk_c5547ce2b3c14f278e7efb130c838b08
+modified: 1693881293538
+created: 1693792451640
+name: Base Environment
+data:
+  local: localhost:8000
+  dev: https://devm-ws.unja.ac.id
+  operator: ""
+  pejabat: ""
+  biasa: ""
+dataPropertyOrder:
+  "&":
+    - local
+    - dev
+    - operator
+    - pejabat
+    - biasa
+color: null
+isPrivate: false
+metaSortKey: 1693792451640
