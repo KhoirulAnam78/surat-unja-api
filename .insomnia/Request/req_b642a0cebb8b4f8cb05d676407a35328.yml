@@ -1,12 +1,12 @@
 _id: req_b642a0cebb8b4f8cb05d676407a35328
 type: Request
 parentId: fld_53175c8a39bb4401869abccad76ce161
-modified: 1694509347558
+modified: 1694764294976
 created: 1694508297094
 url: "{{ _.local }}/api/surat-unja/surat/surat-masuk"
 name: get surat masuk
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
   text: |-
@@ -14,14 +14,13 @@ body:
     	"tgl_awal" : "2022-01-06 10:11:41",
     	"tgl_akhir" : "2022-03-06 10:11:41",
     	"id_unit_kerja_asal" : "",
-    	"id_sifat_surat" : "",
-    	"tindak_akhir" : "",
+    	"id_sifat_surat" : "1",
+    	"tindak_akhir" : "Y",
     	"id_jenis_surat" : "",
     	"id_kelompok_surat" : "",
     	"tujuan" : "",
     	"status_tindakan" : "default",
     	"lihat_penting" : "T"
-    	
     }
 parameters: []
 headers:
@@ -31,7 +30,7 @@ headers:
     value: insomnia/2023.5.8
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5IiwianRpIjoiMjUyODc1NzE3OTE2ZmIyNTRlNWJhMTBhMWNjOGIxMDYxODAzMTViOWNmNTU1MzAzYjNhOGFlNDFlYmE5OWJmZTAzNzdjMGNhOWQ3MmRmNWYiLCJpYXQiOjE2OTM4OTY3MzAuMDU1Mzk2LCJuYmYiOjE2OTM4OTY3MzAuMDU1NDA3LCJleHAiOjE3MjU1MTkxMjkuNTU1NzMxLCJzdWIiOiI0MyIsInNjb3BlcyI6W119.awtMZ45_fQH62GKnI4WmQ4TIN-wCHwLP5im0cK2te5zcAc1jEzku3Oas9xTKceyhH66xhnnjc-l55d21beVDVY3DnL0BdvGwIs0uf1yCouBMOsV50gf250hH1Ag16TjQBSeXY7kS1-86xa5E8uYOQoQa0QArMb-I0p6l_T45Uva0I8tgkG5IcyIaKnDe5yVlk14ybArplbA7iK3KXggLp_g_fcMuoMPb28xr7xos5wd5xP0KtJesPo35V_601YBai40w4-XHPW6ThhKwHr-j7bxcFTmw9_Cuir1W_DJkaMSoiLbrQZP3-K0ccVJVwrzJDuHuVp8Brlrr9V0c8uiGhDPqW2MVnlKGEV4Sbs8V0X43w7UOwJ6E_FLGEHUfvT7RlYWatTBlA_yX6AVWs-CD_8DgYPOH97o1V5LeMfDtbt6Kl_dmBl7ELPRq6HQ2As7DhYIj-2L13e7FTLWZGjmQKZL0QgH5hdoSrsjkd1B5AhV0PEALJjD1cZzz-cAtRoVeSQN7_07xb_9VkuGyd5Ldwgf3tXGt-MHkRKEFmj-zs2n0Fkioynb6b853zHQ1i_zMQe5JtF9sEPJsEa3b5p4Nw3QvwlbGY7Iudr6vrdK8tq7zPymVSNz3dglz-epZrOxeehXIWCiAuCgm9OCgpKikCr9vk0k10DbjJQE7VlBGziw
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiMjJjYWRkMGI5MzJkZDY4N2MzMTZhYjZkZTRjZWU3MTYxYTIxN2U2NmJhMDAwNDYwMjU0YWIxNGFjZjUwMzkzNjAyNGUyZDExMDFhZTk1NjkiLCJpYXQiOjE2OTQ3NjA0MzguNjI0OTI2LCJuYmYiOjE2OTQ3NjA0MzguNjI0OTMsImV4cCI6MTcyNjM4MjgzOC4zNDgxMTEsInN1YiI6IjQzIiwic2NvcGVzIjpbXX0.EWK-lNXW62jQY3kpmHMkdS0FkKtQiufdNsqIaH99FHiWzJAjVx7evv6hyGsZZFf9KFKVPpCOGgOb6RmQXGC6u0x8c4Z3HcKLwwDsco-Doh8jPx6Jo6QKc--EjPEudSpEI_4mtDlIIfW0U-CSuhVhL3m-Z5iy5i5ionL71JddVPtxtwgXOBvTO8p9zPBH9zv4YYh_q1KwZLAnFFYke2iascSaymFwjXfg8XxV_IKaUF7X_W0gpf1FFCXxVoPXULrA1X_u0TshnanneQCMEQapOXA7IwXMAhehTLehdc21W4yeUV0Q3-zRITGm1GHMpJ6K7W0gwQyctSZRPrImmyJXWX28QaTSoLKUAB51M9Lpe-cqA1w7rL9yHM7jBJYyu9TYl8w0cPkfVMT6BdVmxZRR98GlPt-TDtLjGcLoBxfE1RDk0HeW2DD77MJOI_whhGK74g0LZcaK3d4YYP6M3LQhco7Zg-91HZ1d4mJy8N0oP1J9clhLmRvcHUYPae0-bN74Gff7C39Hi8c-akr1k9WnNDRD4yIPH9aaG2u93OAPawbaa0oYtwYdg7LwPltuYZmqnSlz5TJ4iY6POoRGod_zedO23dvNHJWieNp4vpuACkezILqZ0_zM77UvLraYmgoEaHKHO53C152lcoS0j17BLYGSemTwyhHbbwhcOKobafU
 metaSortKey: -1694493707483.6094
 isPrivate: false
 settingStoreCookies: true

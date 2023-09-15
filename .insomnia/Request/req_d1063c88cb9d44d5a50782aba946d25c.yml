@@ -1,27 +1,23 @@
-_id: req_d53d9a6fff1549c0b5a131e1d53ece7b
+_id: req_d1063c88cb9d44d5a50782aba946d25c
 type: Request
 parentId: wrk_c5547ce2b3c14f278e7efb130c838b08
-modified: 1694760432132
-created: 1693792456418
-url: "{{ _.local }}/api/login"
-name: Login
+modified: 1694769766547
+created: 1694769733607
+url: ""
+name: YANG KURANG
 description: ""
-method: POST
+method: GET
 body:
-  mimeType: application/json
-  text: |-
-    {
-    	"username" : "20220018",
-    	"password" : "Satuuntuksemua2025"
-    }
+  mimeType: text/plain
+  text: TEMPAT APO BAE YANG KURANG
 parameters: []
 headers:
   - name: Content-Type
-    value: application/json
+    value: text/plain
   - name: User-Agent
-    value: Insomnia/2023.5.7
+    value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1693792456418
+metaSortKey: -1694769733607
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
