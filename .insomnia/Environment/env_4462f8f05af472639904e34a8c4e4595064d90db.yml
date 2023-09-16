@@ -1,12 +1,13 @@
 _id: env_4462f8f05af472639904e34a8c4e4595064d90db
 type: Environment
 parentId: wrk_c5547ce2b3c14f278e7efb130c838b08
-modified: 1693881293538
+modified: 1694761435105
 created: 1693792451640
 name: Base Environment
 data:
   local: localhost:8000
   dev: https://devm-ws.unja.ac.id
+  token_dev: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiNzNkMDhlMTIzNzBhNzlhNzQ2ZDU2NTM3ZmViMGQ4ZmU0YmQ4NzUzZGEwMWMxZTE4NzIzOGI2Zjc1MmMwOWFmNDNjOTI3NzRiNmE4MDNlM2QiLCJpYXQiOjE2OTQ3NjE0MDkuMTg2NzA0LCJuYmYiOjE2OTQ3NjE0MDkuMTg2NzA3LCJleHAiOjE3MjYzODM4MDkuMTU4MDM3LCJzdWIiOiIxMjUiLCJzY29wZXMiOltdfQ.YXvAGP0NOGJcdBY2Go2h26ZYx6vN8uTe7im8UTRRkN0RKuPOYoTM1-448lFLCLFnPC-IwfYVIT3wVBVIbYX8HGpZBzQZmyqUDFPhI96Q_gAH-CUxtcPyWM7kT-VRq9LYvRZgbA2K4iM1t5Ky7bwFHJ4WRWq4WFl5SqyBibzZFCKfxkBO8mhECfKqv-LGr5hgLJhPhRX6lOwsAV4TD_ML783oVSI6AahfZehSOvCOGZElhB5mrq2eQD5xI9wOSbcotcyWbBg72EXqcUTTUlvh2G-3ILxcS4JbDBYqIB-ju-Amd_HfILlcIawYkcHmZqVjghZtO3jMyCa49QYMthm-EFkodP4-MFIFDkKtjl03JOcgudKyeygTvIj97InwHr79v73O8GaTHQmmRqpO148aqBKVtUiylRj6DxNeHASwCEDgJx9OUCgUiqe1c4Gir0sslWvep5JBVk1npWOkAta2XLtiqNFaGf8FbtE8GN9GJVCSup53XTm4U35yinuCUNJLtQRuhMwbxFeK7ezUbFwBtsvgFCMbcp_UIgGS0rV9eZnDOGULKdZ5DIc0l2XE3KelvEZsb4JZCB7Y1H0kidIHBKy_h9U2U05kDjl_M3UvE78w2gqdSH2cDXGkblVLSfcRw8BXVfSdICaUEPenuoz6m58Be8d2TcH0bkVdrHmUVgY
   operator: ""
   pejabat: ""
   biasa: ""
@@ -14,6 +15,7 @@ dataPropertyOrder:
   "&":
     - local
     - dev
+    - token_dev
     - operator
     - pejabat
     - biasa

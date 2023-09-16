@@ -1,9 +1,9 @@
 _id: req_2110656a94c74843bcdb22d44660063e
 type: Request
 parentId: wrk_c5547ce2b3c14f278e7efb130c838b08
-modified: 1694140644197
+modified: 1694748606897
 created: 1694140588733
-url: "{{ _.local }}/api/surat-unja/model"
+url: "{{ _.dev }}/api/surat-unja/model"
 name: Model
 description: ""
 method: GET
