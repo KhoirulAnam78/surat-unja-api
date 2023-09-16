@@ -1,0 +1,25 @@
+_id: req_3190d4e15eab4852b3d5229589e3385e
+type: Request
+parentId: wrk_c5547ce2b3c14f278e7efb130c838b08
+modified: 1694761462254
+created: 1694761062356
+url: "{{ _.dev }}/api/siakad/home"
+name: Get biodata home
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token_dev }}"
+metaSortKey: -1694761062356
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
