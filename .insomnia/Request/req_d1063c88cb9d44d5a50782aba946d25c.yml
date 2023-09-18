@@ -1,7 +1,7 @@
 _id: req_d1063c88cb9d44d5a50782aba946d25c
 type: Request
 parentId: wrk_c5547ce2b3c14f278e7efb130c838b08
-modified: 1694862412915
+modified: 1695011657895
 created: 1694769733607
 url: ""
 name: YANG KURANG
@@ -9,11 +9,17 @@ description: ""
 method: GET
 body:
   mimeType: text/plain
-  text: |-
+  text: |
     TEMPAT APO BAE YANG KURANG
-    1. jabatan
-    2. unit kerja
-    3. otoritas
+    1. jabatan (OK)
+    2. unit kerja (OK)
+    3. otoritas (OK)
+
+    =========================
+    Baca Surat
+    Baca Memo
+    Disposisi
+    Validasi
 parameters: []
 headers:
   - name: Content-Type
