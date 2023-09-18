@@ -1,0 +1,32 @@
+_id: req_f69cb1eb9df24e2b8ecea17230bb40eb
+type: Request
+parentId: fld_53175c8a39bb4401869abccad76ce161
+modified: 1695025027266
+created: 1695023689500
+url: "{{ _.local }}/api/surat-unja/surat/cari"
+name: cari surat
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"keyword" : "754/UN21.9/KS/2020"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token_local }}"
+metaSortKey: -1695023689500
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
