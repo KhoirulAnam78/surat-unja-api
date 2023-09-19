@@ -1,17 +1,19 @@
 _id: req_f69cb1eb9df24e2b8ecea17230bb40eb
 type: Request
 parentId: fld_53175c8a39bb4401869abccad76ce161
-modified: 1695025027266
+modified: 1695112982377
 created: 1695023689500
 url: "{{ _.local }}/api/surat-unja/surat/cari"
 name: cari surat
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
   text: |-
     {
-    	"keyword" : "754/UN21.9/KS/2020"
+    	"keyword":"120",
+    	"per_page":"2",
+    	"page" : "1"
     }
 parameters: []
 headers:
@@ -22,7 +24,7 @@ headers:
 authentication:
   type: bearer
   token: "{{ _.token_local }}"
-metaSortKey: -1695023689500
+metaSortKey: -1694759331787
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
