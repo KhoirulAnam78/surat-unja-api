@@ -1,17 +1,17 @@
 _id: req_f69cb1eb9df24e2b8ecea17230bb40eb
 type: Request
 parentId: fld_53175c8a39bb4401869abccad76ce161
-modified: 1695112982377
+modified: 1695178375721
 created: 1695023689500
-url: "{{ _.local }}/api/surat-unja/surat/cari"
+url: "{{ _.dev }}/api/surat-unja/surat/cari"
 name: cari surat
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"keyword":"120",
+    	"keyword":"127",
     	"per_page":"2",
     	"page" : "1"
     }
@@ -23,7 +23,7 @@ headers:
     value: insomnia/2023.5.8
 authentication:
   type: bearer
-  token: "{{ _.token_local }}"
+  token: "{{ _.token_dev_bg_repal }}"
 metaSortKey: -1694759331787
 isPrivate: false
 settingStoreCookies: true
