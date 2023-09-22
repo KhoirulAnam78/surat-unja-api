@@ -1,9 +1,9 @@
 _id: req_44f3343bfc3f4bcf8420ae635e042296
 type: Request
 parentId: fld_53175c8a39bb4401869abccad76ce161
-modified: 1694760542581
+modified: 1695093189384
 created: 1694494974074
-url: "{{ _.local }}/api/surat-unja/surat/jenis-surat"
+url: "{{ _.dev }}/api/surat-unja/surat/jenis-surat"
 name: get jenis surat
 description: ""
 method: GET

@@ -1,7 +1,7 @@
 _id: req_d1063c88cb9d44d5a50782aba946d25c
 type: Request
 parentId: wrk_c5547ce2b3c14f278e7efb130c838b08
-modified: 1695011657895
+modified: 1695350063794
 created: 1694769733607
 url: ""
 name: YANG KURANG
@@ -9,7 +9,7 @@ description: ""
 method: GET
 body:
   mimeType: text/plain
-  text: |
+  text: |+
     TEMPAT APO BAE YANG KURANG
     1. jabatan (OK)
     2. unit kerja (OK)
@@ -20,6 +20,17 @@ body:
     Baca Memo
     Disposisi
     Validasi
+
+    =========================
+
+    keterangan surat sudah dibaca/ etc
+    file surat =>pdf => utama 
+    								 => lampiran
+    								 
+    file surat =>lainnya(selain pdf) => download
+
+    roles => id_role
+
 parameters: []
 headers:
   - name: Content-Type

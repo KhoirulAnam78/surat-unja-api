@@ -1,9 +1,9 @@
 _id: req_1e33528386a04744a57fe80576aa3f8e
 type: Request
 parentId: fld_53175c8a39bb4401869abccad76ce161
-modified: 1694760527495
+modified: 1695093238509
 created: 1694508168985
-url: "{{ _.local }}/api/surat-unja/surat/tindak-akhir"
+url: "{{ _.dev }}/api/surat-unja/surat/tindak-akhir"
 name: get tindak akhir
 description: ""
 method: GET

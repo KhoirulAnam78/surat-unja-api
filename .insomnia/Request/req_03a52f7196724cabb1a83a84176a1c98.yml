@@ -1,9 +1,9 @@
 _id: req_03a52f7196724cabb1a83a84176a1c98
 type: Request
 parentId: fld_53175c8a39bb4401869abccad76ce161
-modified: 1694760533448
+modified: 1695093216745
 created: 1694506757496
-url: "{{ _.local }}/api/surat-unja/surat/unit-asal-surat"
+url: "{{ _.dev }}/api/surat-unja/surat/unit-asal-surat"
 name: get unit kerja asal surat
 description: ""
 method: GET

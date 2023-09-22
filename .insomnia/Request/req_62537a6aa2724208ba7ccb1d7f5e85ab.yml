@@ -1,7 +1,7 @@
 _id: req_62537a6aa2724208ba7ccb1d7f5e85ab
 type: Request
 parentId: fld_acc2777dd9cb4258ae44125101ba1ea7
-modified: 1694760359589
+modified: 1695055146754
 created: 1694399098610
 url: "{{ _.dev }}/api/surat-unja/dashboard/surat-masuk"
 name: Get jumlah surat masuk
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"tgl_awal" : "2022-01-06 10:11:41",
-    	"tgl_akhir" : "2022-03-06 10:11:41"
+    	"tgl_awal" : "2023-09-18",
+    	"tgl_akhir" : "2023-06-20"
     }
 parameters: []
 headers:

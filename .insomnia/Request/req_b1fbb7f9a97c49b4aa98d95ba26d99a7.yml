@@ -1,9 +1,9 @@
 _id: req_b1fbb7f9a97c49b4aa98d95ba26d99a7
 type: Request
 parentId: fld_53175c8a39bb4401869abccad76ce161
-modified: 1694760539365
+modified: 1695093170956
 created: 1694502334473
-url: "{{ _.local }}/api/surat-unja/surat/kelompok-surat"
+url: "{{ _.dev }}/api/surat-unja/surat/kelompok-surat"
 name: get kelompok surat
 description: ""
 method: GET

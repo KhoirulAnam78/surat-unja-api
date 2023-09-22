@@ -1,9 +1,9 @@
 _id: req_d53d9a6fff1549c0b5a131e1d53ece7b
 type: Request
 parentId: wrk_c5547ce2b3c14f278e7efb130c838b08
-modified: 1694760432132
+modified: 1695092769379
 created: 1693792456418
-url: "{{ _.local }}/api/login"
+url: "{{ _.dev }}/api/login"
 name: Login
 description: ""
 method: POST
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"username" : "20220018",
-    	"password" : "Satuuntuksemua2025"
+    	"username" : "20220907",
+    	"password" : "20220907"
     }
 parameters: []
 headers:

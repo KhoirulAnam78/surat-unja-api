@@ -1,7 +1,7 @@
 _id: req_f69cb1eb9df24e2b8ecea17230bb40eb
 type: Request
 parentId: fld_53175c8a39bb4401869abccad76ce161
-modified: 1695178375721
+modified: 1695282677196
 created: 1695023689500
 url: "{{ _.dev }}/api/surat-unja/surat/cari"
 name: cari surat
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"keyword":"127",
-    	"per_page":"2",
+    	"keyword":"bidikmisi",
+    	"per_page": "15",
     	"page" : "1"
     }
 parameters: []
@@ -23,7 +23,7 @@ headers:
     value: insomnia/2023.5.8
 authentication:
   type: bearer
-  token: "{{ _.token_dev_bg_repal }}"
+  token: "{{ _.token_dev }}"
 metaSortKey: -1694759331787
 isPrivate: false
 settingStoreCookies: true

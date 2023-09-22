@@ -1,9 +1,9 @@
 _id: req_b642a0cebb8b4f8cb05d676407a35328
 type: Request
 parentId: fld_53175c8a39bb4401869abccad76ce161
-modified: 1694764294976
+modified: 1695093101406
 created: 1694508297094
-url: "{{ _.local }}/api/surat-unja/surat/surat-masuk"
+url: "{{ _.dev }}/api/surat-unja/surat/surat-masuk"
 name: get surat masuk
 description: ""
 method: POST
@@ -30,7 +30,7 @@ headers:
     value: insomnia/2023.5.8
 authentication:
   type: bearer
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiMjJjYWRkMGI5MzJkZDY4N2MzMTZhYjZkZTRjZWU3MTYxYTIxN2U2NmJhMDAwNDYwMjU0YWIxNGFjZjUwMzkzNjAyNGUyZDExMDFhZTk1NjkiLCJpYXQiOjE2OTQ3NjA0MzguNjI0OTI2LCJuYmYiOjE2OTQ3NjA0MzguNjI0OTMsImV4cCI6MTcyNjM4MjgzOC4zNDgxMTEsInN1YiI6IjQzIiwic2NvcGVzIjpbXX0.EWK-lNXW62jQY3kpmHMkdS0FkKtQiufdNsqIaH99FHiWzJAjVx7evv6hyGsZZFf9KFKVPpCOGgOb6RmQXGC6u0x8c4Z3HcKLwwDsco-Doh8jPx6Jo6QKc--EjPEudSpEI_4mtDlIIfW0U-CSuhVhL3m-Z5iy5i5ionL71JddVPtxtwgXOBvTO8p9zPBH9zv4YYh_q1KwZLAnFFYke2iascSaymFwjXfg8XxV_IKaUF7X_W0gpf1FFCXxVoPXULrA1X_u0TshnanneQCMEQapOXA7IwXMAhehTLehdc21W4yeUV0Q3-zRITGm1GHMpJ6K7W0gwQyctSZRPrImmyJXWX28QaTSoLKUAB51M9Lpe-cqA1w7rL9yHM7jBJYyu9TYl8w0cPkfVMT6BdVmxZRR98GlPt-TDtLjGcLoBxfE1RDk0HeW2DD77MJOI_whhGK74g0LZcaK3d4YYP6M3LQhco7Zg-91HZ1d4mJy8N0oP1J9clhLmRvcHUYPae0-bN74Gff7C39Hi8c-akr1k9WnNDRD4yIPH9aaG2u93OAPawbaa0oYtwYdg7LwPltuYZmqnSlz5TJ4iY6POoRGod_zedO23dvNHJWieNp4vpuACkezILqZ0_zM77UvLraYmgoEaHKHO53C152lcoS0j17BLYGSemTwyhHbbwhcOKobafU
+  token: "{{ _.token_dev }}"
 metaSortKey: -1694493707483.6094
 isPrivate: false
 settingStoreCookies: true
