@@ -1,0 +1,25 @@
+_id: req_078977da426044578e1e4f6fe4550b8b
+type: Request
+parentId: fld_53175c8a39bb4401869abccad76ce161
+modified: 1695695375005
+created: 1695611831476
+url: "{{ _.local }}/api/surat-unja/surat/riwayat-surat/560835"
+name: detail riwayat surat masuk
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token_local }}"
+metaSortKey: -1694493707433.6094
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

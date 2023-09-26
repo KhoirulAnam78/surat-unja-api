@@ -1,0 +1,23 @@
+_id: req_6c90d6d60dc04d34a1f48f916744692b
+type: Request
+parentId: fld_53175c8a39bb4401869abccad76ce161
+modified: 1695347514645
+created: 1695304769849
+url: ""
+name: detail surat
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694493707383.6094
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

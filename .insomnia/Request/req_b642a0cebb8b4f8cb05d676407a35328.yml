@@ -1,9 +1,9 @@
 _id: req_b642a0cebb8b4f8cb05d676407a35328
 type: Request
 parentId: fld_53175c8a39bb4401869abccad76ce161
-modified: 1695093101406
+modified: 1695613832729
 created: 1694508297094
-url: "{{ _.dev }}/api/surat-unja/surat/surat-masuk"
+url: "{{ _.local }}/api/surat-unja/surat/surat-masuk"
 name: get surat masuk
 description: ""
 method: POST
@@ -11,16 +11,17 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"tgl_awal" : "2022-01-06 10:11:41",
-    	"tgl_akhir" : "2022-03-06 10:11:41",
+    	"tgl_awal" : "2023-03-01 00:00:00",
+    	"tgl_akhir" : "2023-03-30 00:00:00",
     	"id_unit_kerja_asal" : "",
-    	"id_sifat_surat" : "1",
-    	"tindak_akhir" : "Y",
+    	"id_sifat_surat" : "",
+    	"tindak_akhir" : "",
     	"id_jenis_surat" : "",
     	"id_kelompok_surat" : "",
     	"tujuan" : "",
     	"status_tindakan" : "default",
-    	"lihat_penting" : "T"
+    	"lihat_penting" : "T",
+    	"per_page" : 5
     }
 parameters: []
 headers:
@@ -30,7 +31,7 @@ headers:
     value: insomnia/2023.5.8
 authentication:
   type: bearer
-  token: "{{ _.token_dev }}"
+  token: "{{ _.token_local }}"
 metaSortKey: -1694493707483.6094
 isPrivate: false
 settingStoreCookies: true
