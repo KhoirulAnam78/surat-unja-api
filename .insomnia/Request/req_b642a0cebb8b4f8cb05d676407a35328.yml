@@ -1,7 +1,7 @@
 _id: req_b642a0cebb8b4f8cb05d676407a35328
 type: Request
 parentId: fld_53175c8a39bb4401869abccad76ce161
-modified: 1695613832729
+modified: 1696216457318
 created: 1694508297094
 url: "{{ _.local }}/api/surat-unja/surat/surat-masuk"
 name: get surat masuk
@@ -21,7 +21,7 @@ body:
     	"tujuan" : "",
     	"status_tindakan" : "default",
     	"lihat_penting" : "T",
-    	"per_page" : 5
+    	"per_page" : 2
     }
 parameters: []
 headers:
